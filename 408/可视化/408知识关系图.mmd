@@ -1,0 +1,45 @@
+flowchart TD
+    A[408 计算机学科专业基础] --> DS[数据结构]
+    A --> CO[计算机组成原理]
+    A --> OS[操作系统]
+    A --> NET[计算机网络]
+
+    DS --> DS1[复杂度]
+    DS --> DS2[线性表/栈/队列]
+    DS --> DS3[树/图]
+    DS --> DS4[查找/排序]
+    DS2 --> OSQ[OS 调度队列与同步缓冲]
+    DS3 --> OSF[文件目录与资源关系]
+    DS3 --> NETR[网络路由与搜索]
+
+    CO --> CO1[数制/补码/浮点]
+    CO --> CO2[性能指标]
+    CO --> CO3[存储层次/Cache]
+    CO --> CO4[CPU/流水线]
+    CO --> CO5[总线/I/O]
+    CO3 --> TLB[页表/TLB/地址转换]
+    CO5 --> OSIO[OS 中断/DMA/I/O]
+    CO2 --> OSS[OS 调度与执行开销]
+
+    OS --> OS1[程序运行环境]
+    OS --> OS2[进程/线程/调度]
+    OS --> OS3[同步互斥/死锁]
+    OS --> OS4[内存/虚拟内存]
+    OS --> OS5[文件系统/I/O]
+    OS1 --> NETAPI[网络系统调用]
+    OS4 --> TLB
+    OS5 --> DISK[磁盘/SSD]
+
+    NET --> NET1[分层与物理层]
+    NET --> NET2[链路层可靠传输]
+    NET --> NET3[IP/路由/子网]
+    NET --> NET4[TCP/UDP]
+    NET --> NET5[DNS/HTTP/应用]
+    NET3 --> NET4
+    NET4 --> NETAPI
+    NET1 --> DELAY[发送/传播/排队时延]
+
+    TLB --> LOCAL[局部性与性能]
+    DISK --> LOCAL
+    CO3 --> LOCAL
+    DS1 --> LOCAL

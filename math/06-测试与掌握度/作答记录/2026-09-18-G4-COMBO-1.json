@@ -1,0 +1,63 @@
+{
+  "evidence_id": "H-2026-09-18-G4-COMBO-1",
+  "date": "2026-09-18",
+  "test": "G4-COMBO-1",
+  "raw_answer": "\\begin{align*}\n&\\int\\left(4x^3-\\frac{3}{x}+2\\cos x\\right)dx \\\\\n&x^4-3\\ln x+2\\sin x \\\\\n&\\int\\frac{x}{x^2+4}dx \\\\\n&\\frac12\\int\\frac{dx^2}{x^2+4} \\\\\n&=\\frac12\\ln(x^2+4) \\\\\n&\\int xe^{2x^2}dx \\\\\n&\\frac12\\int e^{2x^2}dx^2 \\\\\n&=\\frac14e^{2x^2} \\\\\n&\\int x\\cos(2x)dx \\\\\n&u=\\cos(2x)\\quad dv=x dx \\\\\n&du=-\\sin(2x) \\quad v=\\frac12x^2 \\\\\n&\\frac12x^2\\cos(2x)-\\int\\cos(2x)d\\frac12x^2 \\\\\n&\\int\\ln x\\,dx,\\ x>0 \\\\\n&u=\\ln x\\quad dv=dx \\\\\n&du=\\frac1x \\quad v=x \\\\\n&x\\ln x-\\int x\\,d\\ln x \\\\\n&x\\ln x-x \\\\\n&\\int_0^1 2x e^{x^2}dx \\\\\n&\\int_0^1e^{x^2}d x^2 \\\\\n&e^{x^2}\\big|_0^1=e-1\n\\end{align*}",
+  "notation_interpretation": "dx²/d x²暂按d(x²)理解；数学思路不因未显式写u而扣分",
+  "items": [
+    {
+      "q": "1",
+      "method": 2,
+      "calculation": 2,
+      "complete": 0,
+      "notes": "主结构、系数和符号正确。原题未限x>0，需ln|x|；漏+C。完整性共1分，不为两个遗漏重复扣。",
+      "score": 4
+    },
+    {
+      "q": "2A",
+      "method": 2,
+      "calculation": 2,
+      "complete": 0,
+      "notes": "将dx²理解为d(x²)时是合法换元写法，不必强制改成u；结果1/2 ln(x²+4)正确，只漏+C。",
+      "score": 4
+    },
+    {
+      "q": "2B",
+      "method": 2,
+      "calculation": 2,
+      "complete": 0,
+      "notes": "1/2∫e^(2x²)d(x²)=1/4 e^(2x²)正确；只漏+C。d(x²)应加括号避免与(dx)²混淆。",
+      "score": 4
+    },
+    {
+      "q": "3A",
+      "method": 1,
+      "calculation": 1,
+      "complete": 0,
+      "notes": "u=cos2x,dv=x dx是合法拆分但低效（给1分）；余项误写∫u dv而非∫v du（另1分未得）。v=x²/2正确（1分），du应为−2sin2x dx（另1分未得）。未算完无完整结果分。",
+      "score": 2
+    },
+    {
+      "q": "3B",
+      "method": 2,
+      "calculation": 2,
+      "complete": 0,
+      "notes": "分部选择与实际积分过程正确，主体x ln x−x正确；单写du=1/x少了dx，后文x dlnx的写法合法。完整性1分因缺+C及记号问题未得，不重复扣。",
+      "score": 4
+    },
+    {
+      "q": "4",
+      "method": 2,
+      "calculation": 2,
+      "complete": 1,
+      "notes": "e−1正确；可视为求出以x表示的原函数后代原上下限，或u=x²的界恰也为0与1。此题已在上一条讲解出现，算巩固，不作未见迁移证据。",
+      "score": 5
+    }
+  ],
+  "score": 23,
+  "max_score": 30,
+  "predeclared_gate": 26,
+  "elapsed_minutes": null,
+  "assistance": "方法类别在聊天题面有提示；是否另看讲义未知。Q4与讲义例题相同，不算新题。",
+  "decision": "23/30；五项主体正确，关键分部A需修复。统一讲评完整公式，再集中交两题。"
+}

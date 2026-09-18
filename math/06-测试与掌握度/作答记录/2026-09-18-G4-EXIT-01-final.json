@@ -1,0 +1,23 @@
+{
+  "evidence_id": "H-2026-09-18-G4-EXIT-01-Q1",
+  "date": "2026-09-18",
+  "raw_answer": "1/4 * sin（4x）+ C",
+  "math_result": "正确原函数及+C",
+  "score": 4,
+  "max": 4,
+  "grading_scope": "按实际聊天发题口径，不追扣未要求提交的验导步骤",
+  "forecast_before": {
+    "p_core": 0.85,
+    "p_full": 0.6
+  },
+  "actual": {
+    "core_correct": true,
+    "full_correct": true
+  },
+  "elapsed_minutes": null,
+  "plan_question": "用户质疑是否按每日计划推进，需核对基础单元与全天日结区别",
+  "test_total_score": 10,
+  "test_max": 12,
+  "unit_finished": true,
+  "whole_day_finished": false
+}

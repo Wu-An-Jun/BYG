@@ -1,0 +1,230 @@
+{
+  "schema_version": 2,
+  "updated": "2026-09-18",
+  "scope": "数学一",
+  "authoritative_mastery": "06-测试与掌握度/节点台账.json",
+  "current_focus": "G4拓展：定积分性质、换元上下限、变上限",
+  "next_test": "G4-EXT01",
+  "exam_version_status": "2027版本本次未确认；不可据此称尚未发布",
+  "goals": {
+    "user_overall_target": 280,
+    "math_provisional_target": 80,
+    "math_training_target": 85,
+    "math_targets_confirmed_by_user": false
+  },
+  "session_minutes": null,
+  "chapters": [
+    {
+      "id": "G1",
+      "name": "函数、极限与连续",
+      "prereq": "高中代数与基本函数",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G1-函数-极限与连续.md"
+    },
+    {
+      "id": "G2",
+      "name": "导数与微分",
+      "prereq": "G1",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G2-导数与微分.md"
+    },
+    {
+      "id": "G3",
+      "name": "中值定理与导数应用",
+      "prereq": "G1,G2",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G3-中值定理与导数应用.md"
+    },
+    {
+      "id": "G4",
+      "name": "一元函数积分",
+      "prereq": "G1,G2",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G4-一元函数积分.md"
+    },
+    {
+      "id": "G5",
+      "name": "定积分应用与反常积分",
+      "prereq": "G4",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G5-定积分应用与反常积分.md"
+    },
+    {
+      "id": "G6",
+      "name": "常微分方程",
+      "prereq": "G2,G4",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G6-常微分方程.md"
+    },
+    {
+      "id": "G7",
+      "name": "向量代数与空间解析几何",
+      "prereq": "高中解析几何",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G7-向量代数与空间解析几何.md"
+    },
+    {
+      "id": "G8",
+      "name": "多元函数微分学",
+      "prereq": "G1,G2,G7",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G8-多元函数微分学.md"
+    },
+    {
+      "id": "G9",
+      "name": "重积分",
+      "prereq": "G4,G7,G8",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G9-重积分.md"
+    },
+    {
+      "id": "G10",
+      "name": "曲线曲面积分与场论公式",
+      "prereq": "G4,G7,G8,G9",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G10-曲线曲面积分与场论公式.md"
+    },
+    {
+      "id": "G11",
+      "name": "无穷级数",
+      "prereq": "G1,G4",
+      "subject": "高等数学",
+      "path": "01-知识地图/高等数学/G11-无穷级数.md"
+    },
+    {
+      "id": "L1",
+      "name": "行列式",
+      "prereq": "高中代数",
+      "subject": "线性代数",
+      "path": "01-知识地图/线性代数/L1-行列式.md"
+    },
+    {
+      "id": "L2",
+      "name": "矩阵",
+      "prereq": "L1",
+      "subject": "线性代数",
+      "path": "01-知识地图/线性代数/L2-矩阵.md"
+    },
+    {
+      "id": "L3",
+      "name": "向量组与线性相关",
+      "prereq": "L2",
+      "subject": "线性代数",
+      "path": "01-知识地图/线性代数/L3-向量组与线性相关.md"
+    },
+    {
+      "id": "L4",
+      "name": "线性方程组",
+      "prereq": "L2,L3",
+      "subject": "线性代数",
+      "path": "01-知识地图/线性代数/L4-线性方程组.md"
+    },
+    {
+      "id": "L5",
+      "name": "特征值特征向量与相似对角化",
+      "prereq": "L1,L2,L3,L4",
+      "subject": "线性代数",
+      "path": "01-知识地图/线性代数/L5-特征值特征向量与相似对角化.md"
+    },
+    {
+      "id": "L6",
+      "name": "二次型",
+      "prereq": "L3,L5",
+      "subject": "线性代数",
+      "path": "01-知识地图/线性代数/L6-二次型.md"
+    },
+    {
+      "id": "P1",
+      "name": "随机事件与概率",
+      "prereq": "集合与排列组合基础",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P1-随机事件与概率.md"
+    },
+    {
+      "id": "P2",
+      "name": "一维随机变量及其分布",
+      "prereq": "P1,G4",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P2-一维随机变量及其分布.md"
+    },
+    {
+      "id": "P3",
+      "name": "多维随机变量及其分布",
+      "prereq": "P2,G9",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P3-多维随机变量及其分布.md"
+    },
+    {
+      "id": "P4",
+      "name": "随机变量的数字特征",
+      "prereq": "P2,P3,G4",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P4-随机变量的数字特征.md"
+    },
+    {
+      "id": "P5",
+      "name": "大数定律与中心极限定理",
+      "prereq": "P4",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P5-大数定律与中心极限定理.md"
+    },
+    {
+      "id": "P6",
+      "name": "样本与抽样分布",
+      "prereq": "P2,P4",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P6-样本与抽样分布.md"
+    },
+    {
+      "id": "P7",
+      "name": "参数估计",
+      "prereq": "P6",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P7-参数估计.md"
+    },
+    {
+      "id": "P8",
+      "name": "假设检验",
+      "prereq": "P6,P7",
+      "subject": "概率论与数理统计",
+      "path": "01-知识地图/概率论与数理统计/P8-假设检验.md"
+    }
+  ],
+  "pending_tests": [
+    "G4-EXT01（本小时拓展）",
+    "G3-R01-FIX（顺延）",
+    "G2-R01（顺延）",
+    "LP-D01（本周）"
+  ],
+  "resume_files": [
+    "AGENTS.md",
+    "00-总览/当前状态.md",
+    "00-总览/会话续接说明.md",
+    "02-计划/今日计划/2026-09-18.md",
+    "08-测试/试卷/G3-R01-延迟复测.md",
+    "08-测试/试卷/G4-D01-一元函数积分起点诊断.md"
+  ],
+  "last_import": {
+    "record": "06-测试与掌握度/导入记录/2026-09-17-G3-session598.json",
+    "study_date": "2026-09-17",
+    "self_reported_followups": "2题正确；未附原答，不判定是否参考"
+  },
+  "last_user_choice": "2026-09-18：先进行G4积分摸底，G3-R01-FIX顺延",
+  "last_answer_record": "06-测试与掌握度/作答记录/2026-09-18-G4-EXIT-01-final.json",
+  "workspace_root": "/Users/apple/Documents/Anyka/BYG/math",
+  "teaching_mode": "完整单元讲解→4组约6题集中作答→统一讲评",
+  "teaching_preference_source": "2026-09-18用户反馈一次只教一点不行",
+  "progress_dashboard": "00-总览/总进度与今日看板.md",
+  "daily_task_state": "03-每日记录/2026-09-18-任务状态.json",
+  "forecast_policy": "06-测试与掌握度/预测与校准规则.md",
+  "forecast_registry": "06-测试与掌握度/出题预测",
+  "today_stop_rule": "基础单元不再自动加题；是否全天结束由用户时间与计划核对决定，不代用户日结。",
+  "foundation_unit_finished": true,
+  "today_finished": false,
+  "optional_extension": {
+    "status": "active",
+    "time_budget_minutes": 60,
+    "unit": "G4-EXT01定积分与变上限",
+    "denominator_effect": "不回写到基础段T1-T6，另行统计"
+  }
+}

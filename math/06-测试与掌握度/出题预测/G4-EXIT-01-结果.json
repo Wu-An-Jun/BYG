@@ -1,0 +1,47 @@
+{
+  "test_id": "G4-EXIT-01",
+  "status": "complete",
+  "results": [
+    {
+      "id": "20260918-G4-EXIT01-Q1",
+      "raw_answer": "1/4 * sin（4x）+ C",
+      "core_correct": true,
+      "full_correct": true,
+      "points_awarded": 4,
+      "assistance_after_forecast": null,
+      "elapsed_minutes": null,
+      "comparable_for_calibration": true,
+      "note": "本题正确；沿用发给用户的完整结果要求，不额外要求提交未在最近发题中强调的验导过程。早先重交旧题另计修正，不重复计分。"
+    },
+    {
+      "id": "20260918-G4-EXIT01-Q2",
+      "raw_answer": "u=x,dv=sin(2x)dx,du=dx,v=−cos(2x)/2；结果−x cos(2x)/2+sin(2x)/4+C",
+      "core_correct": true,
+      "full_correct": true,
+      "points_awarded": 4,
+      "assistance_after_forecast": "未记录",
+      "elapsed_minutes": null,
+      "comparable_for_calibration": true,
+      "note": "完整正确"
+    },
+    {
+      "id": "20260918-G4-EXIT01-Q3",
+      "raw_answer": "u=x,dv=e^x dx,du=dx,v=e^x；原函数xe^x−e^x；最后答e−1+C",
+      "core_correct": false,
+      "full_correct": false,
+      "points_awarded": 2,
+      "assistance_after_forecast": "未记录",
+      "elapsed_minutes": null,
+      "comparable_for_calibration": true,
+      "note": "分部与未化简原函数步骤有2分；但定积分数值错误且提因式等式错误，所以按事前core定义（正确数值/过程无矛盾）core也为false，不能因中间方法正确改口径。"
+    }
+  ],
+  "answered_comparable": 3,
+  "duplicate_excluded": 1,
+  "actual_summary": "Q1=4/4，Q2=4/4，Q3=2/4；本组已全部答完。计算质量部分达标，定积分提因式/上下限/+C尚需复习。",
+  "score": 10,
+  "max_score": 12,
+  "full_correct_count": 2,
+  "core_correct_count": 2,
+  "updated_at": "2026-09-18T16:49:53+08:00"
+}

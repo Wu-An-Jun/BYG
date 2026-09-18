@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-18",
+  "updated_at": "2026-09-18T16:49:53+08:00",
+  "basis": "将既有T1—T6计划结构化回填，不冒称这是早先已冻结的JSON；本次明确收尾边界后不随意增加分母",
+  "tasks": [
+    {
+      "id": "T1",
+      "name": "G3短复测",
+      "execution": "done",
+      "quality": "仍有缺口，已按用户要求顺延修复",
+      "evidence": [
+        "H-2026-09-18-G3-R01"
+      ]
+    },
+    {
+      "id": "T2",
+      "name": "G3修复组",
+      "execution": "deferred",
+      "quality": "未作答，不记通过或失败",
+      "evidence": [
+        "用户选择直接进入积分"
+      ]
+    },
+    {
+      "id": "T3",
+      "name": "G4起点诊断",
+      "execution": "done",
+      "quality": "诊断已完成，识别基本/换元/分部缺口",
+      "evidence": [
+        "H-2026-09-18-G4-D01-1to3"
+      ]
+    },
+    {
+      "id": "T4",
+      "name": "G4完整单元学习",
+      "execution": "done",
+      "quality": "讲义已提供并有后续整组作答，不能据此判整章掌握",
+      "evidence": [
+        "完整单元讲义",
+        "H-2026-09-18-G4-COMBO-1"
+      ]
+    },
+    {
+      "id": "T5",
+      "name": "综合练习与讲评",
+      "execution": "done",
+      "quality": "组合23/30；分部修复后收尾10/12。系数改善，定积分代数与数值仍有问题。",
+      "evidence": [
+        "H-2026-09-18-G4-COMBO-1",
+        "H-2026-09-18-G4-PARTS-FIX"
+      ]
+    },
+    {
+      "id": "T6",
+      "name": "收尾测、今日结论与用时记录",
+      "execution": "done",
+      "quality": "基础单元收尾三题及记录完成；实际时长未知；不代表全天学完或整个G4通过",
+      "evidence": [
+        "H-2026-09-18-G4-EXIT-01-Q1",
+        "H-2026-09-18-G4-EXIT-01-Q2",
+        "H-2026-09-18-G4-EXIT-01-Q3"
+      ]
+    }
+  ],
+  "total_planned": 6,
+  "deferred_count": 1,
+  "active_count": 5,
+  "executed_count": 5,
+  "execution_completion_ratio": 1.0,
+  "quality_completion_ratio": null,
+  "quality_note": "5/5仅指调整后基础段任务已执行，不是今天总体学习量达标。G3修复顺延，G4变限/对称仍未学，全天剩余时间未确认。",
+  "remaining_today": [
+    "G4-EXT01四题（预算20分钟）",
+    "统一批改、写实际分钟与明日复习点"
+  ],
+  "stop_rule": "不在本基础段后自动追加惩罚性补题；用户质疑/希望继续时说明原计划拓展并核对余量，不擅自宣布日结。",
+  "actual_study_minutes": null,
+  "actual_task_updates": {
+    "G4-EXIT-01-Q1": "full_correct,4/4",
+    "G4-EXIT-01-Q2": "full_correct,4/4",
+    "G4-EXIT-01-Q3": "method_partial,2/4; core_correct=false,full_correct=false"
+  },
+  "forecast_comparable_answers": 3,
+  "foundation_unit_finished": true,
+  "today_finished": false,
+  "forecast_full_correct": 2,
+  "optional_extension": {
+    "id": "EXT-01",
+    "name": "G4定积分性质与变上限拓展",
+    "status": "active",
+    "budget_minutes": 60,
+    "questions": 4,
+    "remaining": [
+      "统一批改",
+      "实际分钟记录"
+    ],
+    "forecast_p_full": [
+      0.6,
+      0.75,
+      0.55,
+      0.45
+    ]
+  }
+}

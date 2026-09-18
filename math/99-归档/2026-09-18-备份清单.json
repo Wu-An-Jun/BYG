@@ -1,0 +1,102 @@
+[
+  {
+    "path": "project-state.yaml",
+    "sha256": "f2e01ecb0b1252477bd18f1e9257305bbef807f3ff7c426cbfa0a1b256bc8bf7"
+  },
+  {
+    "path": "README.md",
+    "sha256": "4ffb52f872d3efa06884e9e00544be645ca2b4ff7330355ff3b63ca9276a48ad"
+  },
+  {
+    "path": "05-公式与提醒/G2-导数与微分.md",
+    "sha256": "dbc3c31e32819a6c16fbf77541e8c72487e7c4c8137990b91d45d4630743b9b1"
+  },
+  {
+    "path": "05-公式与提醒/G1-函数极限连续.md",
+    "sha256": "66145c8b9411c01824a7cdb2d3f343c7150a1aa6b92952245cf216b2222b2909"
+  },
+  {
+    "path": "05-公式与提醒/G3-中值定理与导数应用.md",
+    "sha256": "d893e4290aeae9d5dea2eeaa3997f05e865656022b6db1d7c3e489892e883266"
+  },
+  {
+    "path": "05-公式与提醒/2026-09-18-今日提醒点.md",
+    "sha256": "1d381ca9953f9e708e3c8d98280d600f6e7179cc5a4a6b775c1e524a007fb6f2"
+  },
+  {
+    "path": "05-公式与提醒/2026-09-18-今日公式.md",
+    "sha256": "dd6b4354b2d9cd4b6a7a0aa5cdef623f4856436e28de5fac3ccc875f21cf7ae6"
+  },
+  {
+    "path": "03-每日记录/2026-09-18.md",
+    "sha256": "e0c7ad3f7229df57718fe878ef1fa04c8e9a15a9c92b0c3036d7002bb15426bb"
+  },
+  {
+    "path": "03-每日记录/2026-09-16.md",
+    "sha256": "4ac51b50458e2e8aa56b7ab68e3629f858bf9b1407bb59a9f9016b2801c6976a"
+  },
+  {
+    "path": "03-每日记录/2026-09-17.md",
+    "sha256": "df4ef3cb90ef9692e8cc49ebc9a84a9bb7057d41f71125d29dd9a728af2672b8"
+  },
+  {
+    "path": "00-总览/当前状态.md",
+    "sha256": "47406fd9d09aeb2b63d6f69783239c932b98bd373a3058a89c345e548ba46f1e"
+  },
+  {
+    "path": "00-总览/目标与策略.md",
+    "sha256": "47ee30ba3a5e4f94a399ceea019605da806c61d2987cfc2a8fe58486a972d7df"
+  },
+  {
+    "path": "00-总览/会话续接说明.md",
+    "sha256": "f3636449477189189d70d158b5f0e9de25a28ec2d7e0fb29aca1ac8f00bc043c"
+  },
+  {
+    "path": "06-测试与掌握度/完成度统计.md",
+    "sha256": "dd835256a17cf259cd22c836521b69e98070a07398b201035805607d7d982314"
+  },
+  {
+    "path": "06-测试与掌握度/掌握度矩阵.md",
+    "sha256": "08644099e85f8fed5f9f3fa6558597c9e37e9c962361c56d3c2b429cec705b9a"
+  },
+  {
+    "path": "01-知识地图/数学一知识大纲.md",
+    "sha256": "4a14efbc8ee52b327e4cf8b47661dc60a23734c4f6cb1118caaeb46d572f95f3"
+  },
+  {
+    "path": "01-知识地图/408知识大纲.md",
+    "sha256": "38e727d0ebaaac67a0990b561d2b789444e0568ea6b05004bc23b191ea6e1b5b"
+  },
+  {
+    "path": "02-计划/90天总计划.md",
+    "sha256": "9669af38c1acb1e37be1edb6979b4dcfcf3400665ce729407e79d63907355cd1"
+  },
+  {
+    "path": "04-错题/数学错题本.md",
+    "sha256": "0ef154809a09449ddef5f857d8f8e10c54d1718b2e3dd3a4f8d0dccc7a34d4f3"
+  },
+  {
+    "path": "04-错题/408错题本.md",
+    "sha256": "3d48441ce9b47d90995c0f5e32665dd6dbce66f63316f082fc0921d45300482b"
+  },
+  {
+    "path": "07-模板/周复盘模板.md",
+    "sha256": "e45f3a10199fae8262c2dadb48093f94355f01a3c047b2348878af38e05203bb"
+  },
+  {
+    "path": "07-模板/每日学习模板.md",
+    "sha256": "b9aa00ea1537f6d61775d6deb923019efdb724f9d21732bee8b8d7df4069f6da"
+  },
+  {
+    "path": "07-模板/错题模板.md",
+    "sha256": "799866f5941fb124532e2a5f344523c1b85f7de372a6bc3998ef338238be6eef"
+  },
+  {
+    "path": "02-计划/今日计划/2026-09-18.md",
+    "sha256": "f6bc744747ff855a60b67aa7bf5f9dc06b8d7bc8bd948671cb8ab748e7710702"
+  },
+  {
+    "path": "02-计划/周计划/2026-W38.md",
+    "sha256": "85cc032747769b400ab471495fc3debebe473497c8f4442e3da913f456c48197"
+  }
+]

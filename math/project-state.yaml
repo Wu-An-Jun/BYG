@@ -1,0 +1,6 @@
+# 兼容入口；权威状态见project-state.json和06-测试与掌握度/节点台账.json。
+schema_version: 2
+state_file: project-state.json
+mastery_file: 06-测试与掌握度/节点台账.json
+updated: 2026-09-18
+scope: 数学一

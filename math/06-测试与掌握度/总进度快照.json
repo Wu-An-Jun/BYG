@@ -1,0 +1,65 @@
+{
+  "updated_at": "2026-09-18T16:49:53+08:00",
+  "definitions": "节点为教学追踪单元，大小难度不等；接触有记录不代表完整掌握，比例不代表分数或剩余时间",
+  "total_nodes": 186,
+  "observed_nodes": 33,
+  "observed_ratio": 0.1774193548387097,
+  "nodes_with_some_independent_evidence": 19,
+  "independent_evidence_ratio": 0.10215053763440861,
+  "nodes_with_some_delayed_evidence": 2,
+  "chapter_current": "高数G4第一完整单元",
+  "chapter_full_scope_validated": 0,
+  "total_chapters": 25,
+  "by_subject": {
+    "高等数学": {
+      "nodes": 100,
+      "observed": 30,
+      "observed_ratio": 0.3
+    },
+    "线性代数": {
+      "nodes": 36,
+      "observed": 2,
+      "observed_ratio": 0.05555555555555555
+    },
+    "概率论与数理统计": {
+      "nodes": 50,
+      "observed": 1,
+      "observed_ratio": 0.02
+    }
+  },
+  "daily_state": "03-每日记录/2026-09-18-任务状态.json",
+  "current_standardized_exercise": {
+    "id": "G4-COMBO-1",
+    "score": 23,
+    "max": 30,
+    "meaning": "单元巩固，不是数学150分卷预测"
+  },
+  "forecast_counts": {
+    "issued": 3,
+    "answered": 3,
+    "answered_comparable": 3,
+    "full_correct": 2,
+    "core_correct": 2
+  },
+  "generated_from": "06-测试与掌握度/节点台账.json",
+  "foundation_unit_finished": true,
+  "today_finished": false,
+  "latest_exit_test": {
+    "test": "G4-EXIT-01",
+    "score": 10,
+    "max": 12,
+    "full_correct": 2,
+    "answered": 3,
+    "quality": "定积分提因式/上下限/常数仍有明确缺口，非全章通过"
+  },
+  "today_answer_items": {
+    "G3复测": 3,
+    "G4摸底": 3,
+    "三角换元巩固": 2,
+    "G4组合练习": 6,
+    "分部修复": 2,
+    "收尾组": 3,
+    "total": 19,
+    "note": "按作答项计，含提示练习/讲后巩固/讲过的题；重交旧三角题不再计新项，不能当19道独立真题。"
+  }
+}

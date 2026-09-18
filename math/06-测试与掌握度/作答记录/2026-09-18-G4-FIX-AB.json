@@ -1,0 +1,20 @@
+{
+  "evidence_id": "H-2026-09-18-G4-FIX-AB",
+  "date": "2026-09-18",
+  "test": "G4-FIX-AB",
+  "raw_answer": {
+    "A": "sinx（x^3）",
+    "B": "-cos(x^2)"
+  },
+  "prompt_level": "题面给u=x³、u=x²；未给完整du；用户仅报结果",
+  "result": {
+    "A": "原函数主体正确，漏+C",
+    "B": "原函数主体正确，漏+C"
+  },
+  "state": "E2",
+  "note": "提示后巩固，不计E3独立掌握；用户反馈碎片式教学低效，后续改完整知识块",
+  "interpretation": {
+    "A": "暂按sin(x³)理解，若实际多乘一个x则需另核实",
+    "B": "−cos(x²)"
+  }
+}

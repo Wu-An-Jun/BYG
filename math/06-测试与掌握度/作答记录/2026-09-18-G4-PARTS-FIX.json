@@ -1,0 +1,47 @@
+{
+  "evidence_id": "H-2026-09-18-G4-PARTS-FIX",
+  "date": "2026-09-18",
+  "test": "G4-PARTS-FIX",
+  "raw_math_answers": [
+    "\\int x\\cos(3x)dx\nu=x,\\quad dv=\\cos(3x)dx\ndu=1,\\quad v=\\sin3x\nx\\sin x-\\int\\sin3x dx\nx\\sin x+\\cos3x",
+    "\\int xe^{2x}dx\nu=x,\\quad dv=e^{2x}dx\ndu=1,\\quad v=\\frac{e^{2x}}2\nx\\frac{e^{2x}}2-\\frac12\\int e^{2x}dx\n=\\frac{xe^{2x}}2-\\frac14e^{2x}\n=\\left(\\frac x2-\\frac14\\right)e^{2x}"
+  ],
+  "duplicate_tex_block": "消息第二段LaTeX源码重复同两题，仅计2题",
+  "elapsed_minutes": null,
+  "forecast": null,
+  "forecast_missing_reason": "看到本次答案后才收到预测要求，不回填事前概率",
+  "scoring": "原练习未预设分值；按分项正确性记，不追加虚构总分",
+  "items": [
+    {
+      "q": 1,
+      "core_correct": false,
+      "fully_correct": false,
+      "correct": [
+        "选u=x,dv=cos3x dx有效",
+        "剩余积分已经使用v du的结构"
+      ],
+      "errors": [
+        "v漏1/3",
+        "再次积分sin3x仍漏1/3",
+        "最终缺+C",
+        "乘积中的sin x与原sin3x不一致，可能笔误待确认"
+      ],
+      "notation": "du应为dx；u′=1才正确"
+    },
+    {
+      "q": 2,
+      "core_correct": true,
+      "fully_correct": false,
+      "correct": [
+        "v=e^(2x)/2",
+        "分部余项及积分系数正确",
+        "主体(x/2−1/4)e^(2x)正确"
+      ],
+      "errors": [
+        "缺+C"
+      ],
+      "notation": "du应为dx，不写du=1"
+    }
+  ],
+  "next_action": "不重讲分部整章；只补∫cos(kx)与积分完整性。今天最后1组三题之后收尾，有错移至次日。"
+}

@@ -1,0 +1,23 @@
+{
+  "evidence_id": "H-2026-09-18-G4-EXIT-01-partial",
+  "date": "2026-09-18",
+  "q1": "duplicate prior question, excluded",
+  "q2": {
+    "raw": "完整正确",
+    "points": 4,
+    "max": 4
+  },
+  "q3": {
+    "raw": "method and antiderivative correct; final=e−1+C",
+    "points": 2,
+    "max": 4,
+    "correct_value": 1,
+    "no_C": true
+  },
+  "forecast_file": "06-测试与掌握度/出题预测/G4-EXIT-01-事前预测.json",
+  "calibration_comparable": [
+    "Q2",
+    "Q3"
+  ],
+  "q1_pending": true
+}
