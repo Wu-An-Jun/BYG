@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble/
+.LSOverride
+
+# Credentials and machine-local environment
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Scratch files, caches and local virtual environments
+**/work/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Obsidian machine-specific UI state
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/**/data.json
+
+# Existing local archive backups stay local; their readable documentation remains eligible
+**/99-归档/*.tar.gz
+**/99-归档/*.tar
+**/99-归档/*.zip
+**/99-归档/*.7z
+
+# Local project authentication material
+*.local
