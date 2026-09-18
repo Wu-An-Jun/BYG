@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updated_at": "2026-09-18T16:49:53+08:00",
+  "updated_at": "2026-09-18T18:01:34+08:00",
   "basis": "将既有T1—T6计划结构化回填，不冒称这是早先已冻结的JSON；本次明确收尾边界后不随意增加分母",
   "tasks": [
     {
@@ -68,12 +68,9 @@
   "executed_count": 5,
   "execution_completion_ratio": 1.0,
   "quality_completion_ratio": null,
-  "quality_note": "5/5仅指调整后基础段任务已执行，不是今天总体学习量达标。G3修复顺延，G4变限/对称仍未学，全天剩余时间未确认。",
-  "remaining_today": [
-    "G4-EXT01四题（预算20分钟）",
-    "统一批改、写实际分钟与明日复习点"
-  ],
-  "stop_rule": "不在本基础段后自动追加惩罚性补题；用户质疑/希望继续时说明原计划拓展并核对余量，不擅自宣布日结。",
+  "quality_note": "任务已执行不等于完整G4掌握；EXT01为原题复现，新变式与延迟保持未验证。",
+  "remaining_today": [],
+  "stop_rule": "不自动追加；下次用真正不同题面先预测再复测。",
   "actual_study_minutes": null,
   "actual_task_updates": {
     "G4-EXIT-01-Q1": "full_correct,4/4",
@@ -87,18 +84,26 @@
   "optional_extension": {
     "id": "EXT-01",
     "name": "G4定积分性质与变上限拓展",
-    "status": "active",
+    "status": "executed_reproduction",
     "budget_minutes": 60,
     "questions": 4,
-    "remaining": [
-      "统一批改",
-      "实际分钟记录"
-    ],
+    "remaining": [],
     "forecast_p_full": [
       0.6,
       0.75,
       0.55,
       0.45
-    ]
-  }
+    ],
+    "actual_answer_minutes": 5,
+    "quality": "4/4数学答案正确；原题答案已先展示，未完成新题迁移验证",
+    "evidence": [
+      "H-2026-09-18-G4-EXT01"
+    ],
+    "actual_total_minutes": null,
+    "new_problem_assessment_complete": false
+  },
+  "planned_blocks_executed": true,
+  "day_closure": "约定基础与拓展内容已执行；全天结束未由用户另行确认，不自动加题",
+  "forecast_observed_answers": 7,
+  "forecast_observed_full_correct": 6
 }

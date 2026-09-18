@@ -1,0 +1,60 @@
+{
+  "evidence_id": "H-2026-09-18-G4-EXT01",
+  "date": "2026-09-18",
+  "test": "G4-EXT01",
+  "raw_math_answers": [
+    "\\int_0^1\\frac{3x^2}{1+x^3}dx=\\int_0^1\\frac{1}{1+x^3}d(1+x^3)=\\left.\\ln(1+x^3)\\right|_0^1=\\ln2",
+    "\\int_{-\\pi}^{\\pi}x^3\\sin(x^2)dx：定义域对称，奇函数，为0",
+    "F(x)=\\int_1^{x^2}\\ln(1+t^2)dt；F\\prime(x)=2x\\ln(1+x^4)",
+    "G(x)=\\int_x^{x^2}e^{t^2}dt；G\\prime(x)=2xe^{x^4}-e^{x^2}"
+  ],
+  "student_report": {
+    "lecture_seen": true,
+    "extra_hints_used": false,
+    "answer_time_minutes": 5
+  },
+  "raw_report": "看了你前面的讲义；没有用提示；用时5分钟",
+  "actual_total_study_minutes": null,
+  "items": [
+    {
+      "q": 1,
+      "core_correct": true,
+      "full_correct": true,
+      "practice_points": 4,
+      "max_practice_points": 4,
+      "note": "正确。用户仍用x表达原函数并代原上下限，是合法路径；没有写u=1到2，不声称其写了新上下限，也不强迫改写已有正确方法。"
+    },
+    {
+      "q": 2,
+      "core_correct": true,
+      "full_correct": true,
+      "practice_points": 4,
+      "max_practice_points": 4,
+      "note": "结果正确；更严谨应说积分区间[−π,π]对称。x³奇、sin(x²)偶，乘积奇；函数连续，积分存在。"
+    },
+    {
+      "q": 3,
+      "core_correct": true,
+      "full_correct": true,
+      "practice_points": 4,
+      "max_practice_points": 4,
+      "note": "正确，2x链式系数与x⁴代入都对。"
+    },
+    {
+      "q": 4,
+      "core_correct": true,
+      "full_correct": true,
+      "practice_points": 4,
+      "max_practice_points": 4,
+      "note": "正确，上限链式系数/指数x⁴/下限负号均正确。"
+    }
+  ],
+  "score": 16,
+  "max_score": 16,
+  "score_scope": "看过同题解答后的复现练习，不是新题盲测评分",
+  "teacher_issue": "四道题的完整解答都在前一条助手讲义中原样出现，题目不具备未见迁移检验效力；不是学生看讲义的错。",
+  "evidence_level": "E2",
+  "comparable_for_new_problem_calibration": false,
+  "why_excluded": "原预测条件写无答案预先提示，实际原题答案全部先展示，条件不匹配；不修改原p。",
+  "next_action": "不补罚同一组；下次用真正不同的题面做无原题答案提示的延迟复测。"
+}
