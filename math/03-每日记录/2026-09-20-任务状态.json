@@ -1,31 +1,31 @@
 {
   "date": "2026-09-20",
-  "updated_at": "2026-09-20T11:44:38+08:00",
+  "updated_at": "2026-09-20T12:21:04+08:00",
   "planned_blocks": [
     {
       "id": "D1",
-      "name": "G3G4-R01",
-      "status": "pending",
-      "budget_minutes": "30-45",
+      "name": "G5反常积分完整讲义",
+      "status": "active",
+      "budget_minutes": "15",
       "evidence": []
     },
     {
       "id": "D2",
-      "name": "批改和进度更新",
+      "name": "G5-R01四题",
       "status": "pending",
-      "budget_minutes": "10-15",
+      "budget_minutes": "20-30",
       "evidence": []
     },
     {
       "id": "D3",
-      "name": "第二块（按D1结果决定）",
-      "status": "not_scheduled",
-      "budget_minutes": "unknown",
+      "name": "批改/进度更新",
+      "status": "pending",
+      "budget_minutes": "10-15",
       "evidence": []
     }
   ],
   "actual_study_minutes": null,
   "today_finished": false,
-  "stop_rule": "D1+D2完成后重新评估，不自动加第二块",
+  "stop_rule": "D1-D3完成后重新评估，不自动加第二块",
   "last_recorded_learning_date": "2026-09-18"
 }

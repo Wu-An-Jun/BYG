@@ -1,0 +1,29 @@
+{
+  "evidence_id": "H-2026-09-20-G3G4-R01-comparison",
+  "date": "2026-09-20",
+  "raw_answer": "1: h''=6x+12; x=-2; intervals/signs; inflection(-2,34)\n2: F'=1/x-1/2; x=2; increasing/decreasing; max ln2-1 at (2,ln2-1)\n3: F'=t e^(t²)=x²e^(x⁴)\n4: u=x²+x; d(x²+x); result ln2",
+  "context": "用户随后请求参考答案并进行对照；本记录不是新的盲测/迁移分数",
+  "items": [
+    {
+      "q": 1,
+      "result": "h″、分界x=-2、坐标34对；凹凸术语按项目约定反",
+      "grade": "partial"
+    },
+    {
+      "q": 2,
+      "result": "完整正确",
+      "grade": "correct"
+    },
+    {
+      "q": 3,
+      "result": "漏上限代入和链式，正确3x^5e^(x^6)",
+      "grade": "wrong"
+    },
+    {
+      "q": 4,
+      "result": "u=x²+x入口正确，但上限/分母转换与最终值错，正确ln3",
+      "grade": "partial"
+    }
+  ],
+  "answer_was_shown_after": "用户明确给答案对照，不再用于事前预测校准"
+}

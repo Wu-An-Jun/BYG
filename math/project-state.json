@@ -3,8 +3,8 @@
   "updated": "2026-09-20",
   "scope": "数学一",
   "authoritative_mastery": "06-测试与掌握度/节点台账.json",
-  "current_focus": "G3/G4延迟与变式复测",
-  "next_test": "G3G4-R01",
+  "current_focus": "G5概念块：奇点/普通反常积分/柯西主值/p型来源/比较判别",
+  "next_test": "G5-R01",
   "exam_version_status": "2027版本本次未确认；不可据此称尚未发布",
   "goals": {
     "user_overall_target": 280,
@@ -191,9 +191,9 @@
     }
   ],
   "pending_tests": [
-    "G3G4-R01",
-    "G4定积分/变上限延迟",
+    "G5-R01",
     "G3-R01-FIX（顺延）",
+    "G4延迟保持（按结果）",
     "G2-R01（顺延）",
     "LP-D01（本周）"
   ],
@@ -211,7 +211,6 @@
     "self_reported_followups": "2题正确；未附原答，不判定是否参考"
   },
   "last_user_choice": "2026-09-18：先进行G4积分摸底，G3-R01-FIX顺延",
-  "last_answer_record": "06-测试与掌握度/作答记录/2026-09-18-G4-EXT01.json",
   "workspace_root": "/Users/apple/Documents/Anyka/BYG/math",
   "teaching_mode": "完整单元讲解→4组约6题集中作答→统一讲评",
   "teaching_preference_source": "2026-09-18用户反馈一次只教一点不行",
