@@ -1,0 +1,3 @@
+interface:
+  display_name: "Math Study Orchestrator"
+  short_description: "Math study workflow and evidence records"

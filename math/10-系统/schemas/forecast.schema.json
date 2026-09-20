@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BYG Math Forecast",
+  "type": "object",
+  "required": ["test_id", "created_at", "before_user_answer", "questions"],
+  "properties": {
+    "test_id": {"type": "string"},
+    "created_at": {"type": "string"},
+    "before_user_answer": {"const": true},
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "p_core", "p_full", "nodes"],
+        "properties": {
+          "id": {"type": "string"},
+          "p_core": {"type": "number", "minimum": 0, "maximum": 1},
+          "p_full": {"type": "number", "minimum": 0, "maximum": 1},
+          "nodes": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

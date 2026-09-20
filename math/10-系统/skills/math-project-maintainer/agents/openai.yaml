@@ -1,0 +1,3 @@
+interface:
+  display_name: "Math Project Maintainer"
+  short_description: "Maintain and validate BYG math project files"

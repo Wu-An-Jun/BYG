@@ -1,0 +1,22 @@
+name: Validate Mathematics I project
+
+on:
+  push:
+    paths:
+      - "math/**"
+      - ".github/workflows/validate-math.yml"
+  pull_request:
+    paths:
+      - "math/**"
+      - ".github/workflows/validate-math.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate math project mirrors and forecasts
+        run: python3 math/10-系统/tools/validate_math_project.py math

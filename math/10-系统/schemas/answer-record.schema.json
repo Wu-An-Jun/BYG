@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BYG Math Answer Record",
+  "type": "object",
+  "required": ["evidence_id", "date"],
+  "properties": {
+    "evidence_id": {"type": "string"},
+    "date": {"type": "string"},
+    "raw_answer": {},
+    "elapsed_minutes": {"type": ["number", "null"]},
+    "items": {"type": "array"},
+    "score": {"type": ["number", "null"]}
+  }
+}
