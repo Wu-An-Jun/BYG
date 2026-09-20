@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "updated_at": "2026-09-20T11:19:59+08:00",
+  "planned_blocks": [
+    {
+      "id": "D1",
+      "name": "G3G4-R01",
+      "status": "pending",
+      "budget_minutes": "30-45",
+      "evidence": []
+    },
+    {
+      "id": "D2",
+      "name": "批改和进度更新",
+      "status": "pending",
+      "budget_minutes": "10-15",
+      "evidence": []
+    },
+    {
+      "id": "D3",
+      "name": "第二块（按D1结果决定）",
+      "status": "not_scheduled",
+      "budget_minutes": "unknown",
+      "evidence": []
+    }
+  ],
+  "actual_study_minutes": null,
+  "today_finished": false,
+  "stop_rule": "D1+D2完成后重新评估，不自动加第二块",
+  "last_recorded_learning_date": "2026-09-18"
+}

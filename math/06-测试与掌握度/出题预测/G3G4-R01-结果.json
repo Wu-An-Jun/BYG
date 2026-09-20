@@ -1,0 +1,38 @@
+{
+  "test_id": "G3G4-R01",
+  "status": "awaiting_answers",
+  "results": [
+    {
+      "id": "20260920-G3G4-R01-Q1",
+      "raw_answer": null,
+      "core_correct": null,
+      "full_correct": null,
+      "points_awarded": null,
+      "comparable_for_calibration": null
+    },
+    {
+      "id": "20260920-G3G4-R01-Q2",
+      "raw_answer": null,
+      "core_correct": null,
+      "full_correct": null,
+      "points_awarded": null,
+      "comparable_for_calibration": null
+    },
+    {
+      "id": "20260920-G3G4-R01-Q3",
+      "raw_answer": null,
+      "core_correct": null,
+      "full_correct": null,
+      "points_awarded": null,
+      "comparable_for_calibration": null
+    },
+    {
+      "id": "20260920-G3G4-R01-Q4",
+      "raw_answer": null,
+      "core_correct": null,
+      "full_correct": null,
+      "points_awarded": null,
+      "comparable_for_calibration": null
+    }
+  ]
+}
